@@ -52,9 +52,9 @@ class HomeScreen extends React.Component{
     return (
       <div className="MenuDiv">
         <Menu name={this.props.name} subtitle={this.props.subtitle}></Menu>
-        {/* <video>
+        <video>
           <source src="./video.mp4" type="video/mp4"></source>
-        </video> */}
+        </video>
       </div>
     );
   }
