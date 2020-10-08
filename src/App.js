@@ -28,7 +28,7 @@ class Links extends React.Component{
         <a href="#AboutMe">About Me</a>
         <a href="#Resume">Resume</a>
         <a href="#Projects">Projects</a>
-        <a href="#Contact">Contact</a>
+        <a href="#Contact">Contact Me</a>
       </div>
       
     );
@@ -52,8 +52,8 @@ class HomeScreen extends React.Component{
     return (
       <div className="MenuDiv">
         <Menu name={this.props.name} subtitle={this.props.subtitle}></Menu>
-        <video>
-          <source src="./video.mp4" type="video/mp4"></source>
+        <video autoplay muted loop id="bgVideo">
+          <source src="video.mp4" type="video/mp4"></source>
         </video>
       </div>
     );
